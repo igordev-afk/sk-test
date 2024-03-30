@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sk-example
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sk_example_db
+    username: postgres
+    password: 1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
